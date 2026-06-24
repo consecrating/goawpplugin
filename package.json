@@ -1,0 +1,46 @@
+{
+  "name": "sanctify-seo-auditor",
+  "version": "1.0.0",
+  "description": "Technical SEO audit script with interactive dashboard for WordPress and general websites",
+  "main": "src/index.js",
+  "bin": {
+    "sanctify-seo": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "audit": "node bin/cli.js audit",
+    "serve": "node bin/cli.js serve",
+    "test": "jest"
+  },
+  "keywords": [
+    "seo",
+    "audit",
+    "technical-seo",
+    "dashboard",
+    "lighthouse",
+    "core-web-vitals",
+    "wordpress"
+  ],
+  "author": "Kiro AI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "html-validate": "^8.7.0",
+    "node-html-parser": "^6.1.11",
+    "ora": "^5.4.1",
+    "puppeteer": "^21.5.0",
+    "serve-handler": "^6.1.5",
+    "table": "^6.8.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

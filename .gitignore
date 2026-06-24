@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Generated audit artifacts
+audits/data/
+audits/*.html
+audits/*.png
+audits/index.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
