@@ -1,20 +1,13 @@
-# Dependencies
-node_modules/
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
 
-# Generated audit artifacts
-audits/data/
-audits/*.html
-audits/*.png
-audits/index.json
+# Build / dependency artifacts (none required at runtime)
+node_modules/
+vendor/
 
 # Logs
 *.log
-npm-debug.log*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Env
-.env
-.env.local

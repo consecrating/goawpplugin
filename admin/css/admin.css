@@ -1,0 +1,40 @@
+/**
+ * GOA SEO Booster - admin settings styles.
+ */
+
+.goa-seo-wrap .goa-seo-tagline {
+	font-size: 14px;
+	color: #50575e;
+	margin: 4px 0 18px;
+}
+
+.goa-seo-wrap .goa-section {
+	margin-top: 28px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #dcdcde;
+	font-size: 15px;
+	color: #1d2327;
+}
+
+.goa-seo-wrap .form-table th {
+	width: 220px;
+	font-weight: 600;
+}
+
+.goa-seo-wrap .goa-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 500;
+}
+
+.goa-seo-wrap .form-table .description {
+	color: #646970;
+	font-style: normal;
+}
+
+.goa-seo-wrap textarea.large-text {
+	font-family: Consolas, Monaco, monospace;
+	font-size: 12.5px;
+	line-height: 1.5;
+}
